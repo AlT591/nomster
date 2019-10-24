@@ -1,5 +1,5 @@
 class CreateComments < ActiveRecord::Migration[5.2]
-  def change
+   def change
     create_table :comments do |t|
       t.text :message
       t.string :rating
